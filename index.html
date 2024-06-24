@@ -23,9 +23,18 @@
         <section>
             <h2>Project Documentation</h2>
             <ul>
-                <li><a href="#"><button onclick="document.location='https://github.com/Matt-Audu/HNG-Project-1'">HNG DevOps Project 1</button></a></li>
+                <li><a><button onclick="gotoLink(this)" value="https://github.com/Matt-Audu/HNG-Project-1">HNG DevOps Project 1</button></a></li>
             </ul>
         </section>
+
+        <script>
+            function gotoLink(link){
+                console.log(link.value);
+                window.open(link.value);
+            };
+        </script>
+
+
     </main>
     <footer>
         <p>&copy; 2024 My Website. All rights reserved.</p>
