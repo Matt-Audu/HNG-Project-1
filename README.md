@@ -58,7 +58,7 @@ eval "$(ssh-agent -s)"
 Add ssh private key.
 
 ```
-ssh-add Directory/example.pem
+ssh-add <path to file>/example.pem
 ```
 
 #### 4.3: Transfer application files
