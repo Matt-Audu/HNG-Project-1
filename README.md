@@ -9,7 +9,7 @@ Before you start, make sure you have the following:
 
 - A linux server. (e.g. Redhat, Ubuntu, CentOS)
 - SSH access to the server.
-- Open Port 22, 443 and 80.
+- Open Port 22 and 80.
 - Basic knowledge of the command line.
 
 ### Step 1: Install Apache
