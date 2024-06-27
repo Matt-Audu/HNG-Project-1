@@ -63,7 +63,7 @@ ssh-add <path to file>/example.pem
 
 #### 4.3: Transfer application files
 
-Tranfer your application files (HTML, CSS and Javascript) into the /var/www/html/ directory.
+Copy your application files (HTML, CSS and Javascript) into the /var/www/html/ directory.
 
 ```
 scp <path to files>/* ec2-username@I.p address:/var/www/html
